@@ -9,5 +9,5 @@ def synthesize(text, lang, filename):
     lang (str) - the language in which you want to synthesize it
     filename (str) - the filename in which it should be saved
     '''
-    rgtts.gTTS(text=text,lang=lang).save(filename)
+    gtts.gTTS(text=text,lang=lang).save(filename)
 
