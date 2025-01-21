@@ -8,7 +8,7 @@ def what_time_is_it(lang, filename):
     lang (str) - language in which to speak
     filename (str) - the filename into which the audio should be recorded
     '''
-    raise RuntimeError("You need to write this part!")
+    #raise RuntimeError("You need to write this part!")
     
 def tell_me_a_joke(lang, audiofile):
     '''
